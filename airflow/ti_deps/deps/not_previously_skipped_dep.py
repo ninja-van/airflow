@@ -26,7 +26,7 @@ class NotPreviouslySkippedDep(BaseTIDep):
     """
 
     NAME = "Not Previously Skipped"
-    IGNORABLE = True
+    IGNOREABLE = True
     IS_TASK_DEP = True
 
     def _get_dep_statuses(
